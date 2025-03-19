@@ -1,0 +1,192 @@
+body {
+  /* Updated background for a light grey gradient */
+  background: #f8f9fa; /* Light grey background */
+  background: -webkit-linear-gradient(to bottom, #f8f9fa, #e9ecef); /* Subtle gradient */
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #333;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.header-bg {
+background-color: #004c99; /* Reliance Digital Blue */
+}
+
+.header-bg .row {
+  text-align: center; /* Center align header content */
+}
+
+.header-bg .col-lg-8 {
+  margin-top: 1rem; /* Add some space between logo and text */
+}
+
+header img {
+  max-height: 90vh;
+  width: auto;
+  max-width: 95%;
+}
+/* Form Container */
+.form-container {
+background-color: #fff;
+padding: 60px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
+
+/* Form Title */
+#regForm h2 {
+color: #004c99; /* Reliance Digital Blue */
+font-weight: 700;
+}
+
+/* Form Labels */
+.form-group label {
+font-weight: 500;
+color: #333;
+}
+
+/* Form Inputs */
+.form-control {
+border: 1px solid #ced4da; /* Light grey border */
+padding: 10px;
+font-size: 1rem;
+border-radius: 4px;
+transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.form-control:focus {
+border-color: #004c99; /* Reliance Digital Blue on focus */
+box-shadow: 0 0 0 0.2rem rgba(0, 76, 153, 0.25); /* Focus glow */
+outline: none;
+}
+
+/* Error Messages */
+.error {
+color: #dc3545; /* Bootstrap's danger color for errors */
+font-size: 0.875rem;
+margin-top: 5px;
+}
+
+/* Submit Button */
+.btn {
+padding: 10px 20px;
+font-size: 1rem;
+border-radius: 4px;
+transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Footer */
+footer {
+background-color: #f8f8f8; /* Light grey background */
+border-top: 2px solid #ddd;
+}
+
+footer p {
+color: #666; /* Dark grey text */
+}
+
+/* Social Icons */
+.social-icons a {
+color: #333; /* Dark grey icons */
+font-size: 1.5rem;
+transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+color: #004c99; /* Reliance Digital Blue on hover */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.social-icons {
+  margin-top: 20px;
+}
+
+
+.store-locator-section button {
+  background-color: transparent; /* Remove background color */
+  color: #004c99;              /* Reliance Digital blue text */
+  border: 1px solid #004c99;   /* Reliance Digital blue border */
+  padding: 5px 10px;         /* Adjust padding as needed */
+}
+
+.store-locator-section button:hover {
+  background-color: #004c99; /* Reliance Digital blue background on hover */
+  color: #fff;              /* White text on hover */
+}
+
+
+
+.tnc .btn-primary {
+  background-color: #004c99; /* Reliance Digital Blue */
+  border-color: #004c99;     /* Reliance Digital Blue */
+  color: #fff;              /* White text */
+}
+
+.tnc .btn-primary:hover {
+  background-color: #003a7a; /* Darker shade of blue on hover */
+  border-color: #003a7a;     /* Darker shade of blue on hover */
+}
+
+.tnc .collapse .card-body { 
+  color: #333; /* Dark gray text */
+}
+.tnc #tncContent,
+.tnc #tncContent * {
+    background-color: transparent !important;
+}
+.info-text {
+  font-size: 1rem; /* Adjust as needed */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  .form-container {
+      padding: 15px;
+      margin-top: 20px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.3rem;
+  }
+
+  .form-container {
+      padding: 20px;
+  }
+}
+
+/* For medium and large screens */
+@media (min-width: 769px) {
+.header-bg img {
+    max-height: 650px; /* Adjust as needed for larger screens */
+    width: auto;
+  }
+.form-container {
+  padding: 60px;
+}
+
+}
