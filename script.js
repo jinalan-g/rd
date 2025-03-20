@@ -99,8 +99,6 @@ form.addEventListener('submit', function (event) {
                 </textarea>
             </div>
         </div>
-        <br></br>
-            <p class="mb-0 mr-2 text-center info-text">Please visit the store to know more!</p>
         `;
       } else {
       const apiMessage = responseData.detail || 'No voucher code available at the moment.';
