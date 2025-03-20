@@ -85,9 +85,9 @@ form.addEventListener('submit', function (event) {
             <div class="alert alert-info mt-3 text-center" role="alert" info-text>Your Coupon code is <strong>${voucherCode}</strong> </div>
             <div class="store-locator-section mt-3 d-flex align-items-center justify-content-center">
                 
-                <button type="button" class="btn" onclick="window.location.href='https://www.reliancedigital.in/collection/moto-razr?page_no=1&page_size=12&page_type=number'">
-                    <i class="info-text"></i> Click here!
-                </button>
+               <button type="button" class="btn" onclick="window.location.href='https://www.reliancedigital.in/collection/moto-razr?page_no=1&page_size=12&page_type=number'">
+   		<i class="info-text"></i> <b>Click here!</b> <b>to avail the coupon.</b>
+		</button>
 		<p class="mb-0 mr-2 info-text"> to avail the coupon.</p>
             </div>
             <div class="tnc mt-3 text-center info-text">
