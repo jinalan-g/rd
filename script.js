@@ -88,10 +88,9 @@ form.addEventListener('submit', function (event) {
                <button type="button" class="btn" onclick="window.location.href='https://www.reliancedigital.in/collection/moto-razr?page_no=1&page_size=12&page_type=number'">
    		<i class="info-text"></i> <b>Click here to avail the Coupon.</b>
 		</button>
-		<p class="mb-0 mr-2 info-text"> to avail the coupon.</p>
             </div>
             <div class="tnc mt-3 text-center info-text">
-            <h3 style="color: #004c99; text-align: center;">Terms and Conditions</h3>
+            <h4 style="color: #004c99; text-align: center;">Terms and Conditions</h4>
 	    <div class="form-control" style="white-space: pre-wrap; overflow: auto; height: auto;">
 		    1. Coupon Applicable only at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. Coupon is not applicable at the Reliance Digital stores.<br>
 		    2. Coupon Valid till 31st March.<br>
