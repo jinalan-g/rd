@@ -131,14 +131,14 @@ color: #004c99; /* Reliance Digital Blue on hover */
 
 
 .tnc .btn-primary {
-  background-color: #004c99; /* Reliance Digital Blue */
+  background-color:transparent; /* Reliance Digital Blue */
   border-color: #004c99;     /* Reliance Digital Blue */
-  color: #fff;              /* White text */
+  color: #004c99;             
 }
 
 .tnc .btn-primary:hover {
   background-color: #003a7a; /* Darker shade of blue on hover */
-  border-color: #003a7a;     /* Darker shade of blue on hover */
+  border-color:  #004c99;
 }
 
 .tnc .collapse .card-body { 
