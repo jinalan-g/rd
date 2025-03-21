@@ -48,7 +48,7 @@ form.addEventListener('submit', function (event) {
 
    //console.log("Captured Data:", data);
 
-    fetch('/allocate_voucher', {
+    fetch('/googleoffers/allocate_voucher', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
