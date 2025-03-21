@@ -86,16 +86,17 @@ form.addEventListener('submit', function (event) {
             <div class="alert alert-info mt-3 text-center" role="alert" info-text>Your Coupon code is <strong>${voucherCode}</strong> </div>
 		<div class="store-locator-section mt-3 d-flex align-items-center justify-content-center">
 		    
-		  <button type="button" class="btn" style="background-color: #004c99" onclick="window.location.href='https://www.reliancedigital.in/collection/moto-razr?page_no=1&page_size=12&page_type=number'">
-		<i class="info-text" style="color:white";></i> <b>Click here to avail the Coupon.</b>
+		  <button type="button" class="btn" onclick="window.location.href='https://www.reliancedigital.in/collection/moto-razr?page_no=1&page_size=12&page_type=number'">
+		<i class="info-text" style="color:white";></i> <b>Click here to avail the Coupon!</b>
 		</button>
 		</div>
 		<div class="tnc mt-3 text-center info-text">
-		<h4 style="color: #000000; text-align: center;">Terms and Conditions</h4>
-		<div class="form-control" style="white-space: pre-wrap; overflow: auto; height: auto;">
-		1. Coupon Applicable only at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. Coupon is not applicable at the Reliance Digital stores.<br>
-		2. Coupon Valid till 31st March.<br>
-		3. Terms and Conditions apply.
+		<h5 style="color: #000000; text-align: center;">Terms and Conditions</h5>
+		<div class="form-control" style="white-space: pre-wrap; overflow: auto; height: auto; font-size: 0.8rem; text-align: left;">
+		    1. Coupon Applicable only at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. 
+      		    2. Coupon is not applicable at the Reliance Digital stores.
+		    3. Coupon Valid till 31st March.
+		    4. Terms and Conditions apply.
 		</div>
         `;
       } else {
