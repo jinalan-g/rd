@@ -55,6 +55,7 @@ form.addEventListener('submit', function (event) {
         'Authorization': `Bearer ${authToken}`
       },
       body: JSON.stringify(data),
+	mode:'cors'
     })
     .then(response => {
       if (!response.ok) {
