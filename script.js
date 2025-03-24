@@ -99,17 +99,18 @@ form.addEventListener('submit', function (event) {
 		    4. Terms and Conditions apply.
 		</div>
         `;
+	gtag('event', 'conversion', {
+      'send_to': 'AW-996242825/Oy05CPK0l_8ZEInrhdsD',
+      'value': 1.0,
+      'currency': 'INR'
+         });
       } else {
       const apiMessage = responseData.detail || 'No voucher code available at the moment.';
 
         document.querySelector('.form-container').innerHTML = `
           <h2>${apiMessage}</h2> 
         `;
-	 gtag('event', 'conversion', {
-      'send_to': 'AW-996242825/Oy05CPK0l_8ZEInrhdsD',
-      'value': 1.0,
-      'currency': 'INR'
-         });
+	
      // If no voucher, do nothing (or display a different message if needed)
       }
     })
