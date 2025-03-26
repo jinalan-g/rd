@@ -93,8 +93,8 @@ form.addEventListener('submit', function (event) {
 		<div class="tnc mt-3 text-center info-text">
 		<h5 style="color: #000000; text-align: center;">Terms and Conditions</h5>
 		<div class="form-control" style="white-space: pre-wrap; overflow: auto; height: auto; font-size: 0.8rem; text-align: left;">
-		    1. Coupon Applicable only at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. 
-      		    2. Coupon is not applicable at the Reliance Digital stores.
+		    1. Coupon Applicable at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. 
+      		    2. Coupon also Applicable at <a href="https://www.reliancedigital.in/c/store-locator" target="_blank">Reliance Digital stores</a>
 		    3. Coupon Valid till 31st March.
 		    4. Terms and Conditions apply.
 		</div>
