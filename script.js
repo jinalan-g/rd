@@ -48,13 +48,14 @@ form.addEventListener('submit', function (event) {
 
    //console.log("Captured Data:", data);
 
-    fetch('/allocate_voucher', {
+    fetch('https://35.200.153.166/allocate_voucher', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${authToken}`
       },
       body: JSON.stringify(data),
+	mode:'cors'
     })
     .then(response => {
       if (!response.ok) {
@@ -90,24 +91,26 @@ form.addEventListener('submit', function (event) {
 		</button>
 		</div>
 		<div class="tnc mt-3 text-center info-text">
-		<h4 style="color: #000000; text-align: center;">Terms and Conditions</h4>
+		<h5 style="color: #000000; text-align: center;">Terms and Conditions</h5>
 		<div class="form-control" style="white-space: pre-wrap; overflow: auto; height: auto; font-size: 0.8rem; text-align: left;">
-		    1. Coupon Applicable only at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. Coupon is not applicable at the Reliance Digital stores.<br>
-		    2. Coupon Valid till 31st March.<br>
-		    3. Terms and Conditions apply.
+		    1. Coupon Applicable at <a href="https://www.reliancedigital.in" target="_blank">reliancedigital.in</a>. 
+      		    2. Coupon also Applicable at <a href="https://www.reliancedigital.in/c/store-locator" target="_blank">Reliance Digital stores</a>
+		    3. Coupon Valid till 31st March.
+		    4. Terms and Conditions apply.
 		</div>
         `;
+	gtag('event', 'conversion', {
+      'send_to': 'AW-996242825/Oy05CPK0l_8ZEInrhdsD',
+      'value': 1.0,
+      'currency': 'INR'
+         });
       } else {
       const apiMessage = responseData.detail || 'No voucher code available at the moment.';
 
         document.querySelector('.form-container').innerHTML = `
           <h2>${apiMessage}</h2> 
         `;
-	 gtag('event', 'conversion', {
-      'send_to': 'AW-996242825/Oy05CPK0l_8ZEInrhdsD',
-      'value': 1.0,
-      'currency': 'INR'
-         });
+	
      // If no voucher, do nothing (or display a different message if needed)
       }
     })
