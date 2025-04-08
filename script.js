@@ -123,7 +123,7 @@ form.addEventListener('submit', async function (event) {
       console.log("Sending Hashed Data:", dataToSend); // Log the data being sent (optional)
 
       // --- Send HASHED data to the backend ---
-      const response = await fetch('https://35.200.153.166/allocate_voucher', {
+      const response = await fetch('https://34.93.8.121/allocate_voucher', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
